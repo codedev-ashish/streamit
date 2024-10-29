@@ -1,0 +1,126 @@
+name: streamit_flutter
+description: A new Flutter application.
+version: 9.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Required
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+  nb_utils: ^7.0.3
+  cached_network_image: ^3.3.1
+  flutter_vector_icons: ^2.0.0
+  google_nav_bar: ^5.0.6
+
+  # Html
+  html: ^0.15.4
+  http: ^1.2.1
+  flutter_html: ^3.0.0-beta.1
+
+  # Voice Search
+  speech_to_text: ^6.6.0
+
+  # State Management
+  mobx: ^2.3.3+2
+  flutter_mobx: ^2.2.1+1
+
+  # Font
+  google_fonts: ^6.2.1
+
+  # Launch url
+  url_launcher: ^6.3.0
+
+  # Rating
+  flutter_rating_bar: ^4.0.1
+
+  # Ads
+  google_mobile_ads: ^5.1.0
+
+
+
+  # Image selection
+  image_picker: ^1.1.2
+
+  # Video player
+  youtube_player_flutter: ^9.0.1
+  pod_player: ^0.2.2
+  better_player_plus: ^1.0.7
+  vimeo_player_flutter: ^0.1.0
+  cast: ^2.0.0
+
+  # Web-views
+  webview_flutter: ^4.8.0
+  flutter_custom_tabs: ^2.1.0
+
+  # Animation
+  lottie: ^3.1.2
+
+  # Firebase remote config
+  firebase_core: ^3.2.0
+  firebase_remote_config: ^5.0.3
+  firebase_crashlytics: ^4.0.3
+
+  #Firebase Notification
+  flutter_local_notifications: ^17.2.1+2
+  firebase_messaging: ^15.0.3
+  # Prevent Screenshot and Screen record
+  flutter_windowmanager: ^0.2.0
+
+  screen_protector: ^1.4.2
+
+  # shimmer effect
+  shimmer: ^3.0.0
+
+  # Share link
+  share_plus: ^9.0.0
+
+
+
+  # Download file and store
+  flutter_downloader: ^1.11.7
+  device_info_plus: ^10.1.0
+  permission_handler: ^11.3.1
+  flutter_file_downloader: ^2.0.0
+  path_provider: ^2.1.3
+
+  #others
+  percent_indicator: ^4.2.3
+  stream_transform: ^2.1.0
+  fl_pip: ^2.0.0
+
+
+
+  flutter_localizations:
+    sdk: flutter
+  encrypt: ^5.0.3
+
+
+  # in App Purchase
+  purchases_flutter: ^6.30.2
+
+
+dependency_overrides:
+  nb_utils: ^6.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.11
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/lottie/
+    - assets/gif/
+    - assets/images/
+    - assets/images/flag/
+    - assets/
